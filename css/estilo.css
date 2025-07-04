@@ -33,7 +33,7 @@ h1+p{
 h1~p {
     color: pink;
 }*/
-
+/* Aula de herança 
 * {
     color: red;
 }
@@ -41,12 +41,35 @@ h1~p {
 h2 {
     color: blue;
 }
-
-
-
 h2#amarelo {
     color: yellow;
 }
 h2.verde {
     color: green;
+}
+*/
+
+/* 
+Barra de navegação vertical
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../imagens/seta.png) no-repeat left center;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    background: url(../imagens/seta.png) no-repeat left center;
+    padding: 20px;
+
 }
