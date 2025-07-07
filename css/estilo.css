@@ -62,6 +62,7 @@ li {
     background: url(../imagens/seta.png) no-repeat left center;
 } */
 
+
 ul {
     margin: 0;
     padding: 0;
@@ -69,10 +70,31 @@ ul {
 }
 
 ul a {
-    width: 300px;
+    width: 200px;
     height: 40px;
-    border: 1px solid red;
+/*  border: 1px solid red; */
     display: block;
-    background: url(../imagens/menu.png)  no-repeat left bottom;
-    
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(../imagens/menu.png)  no-repeat left bottom;
 }
+
+a:hover, .selecionado a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a 
+{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;    
+}
+
+
+
