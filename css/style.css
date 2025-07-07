@@ -14,7 +14,17 @@ ul li {
 ul a {
     display: block;
     padding: 0 2em;
-    line-height: 2em;
+    line-height: 2.2em;
     color: #fff;
     background: url(../imagens/divisor.png) repeat-y;
+    text-decoration: none;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
 }
