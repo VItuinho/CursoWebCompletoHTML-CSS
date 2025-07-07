@@ -1,53 +1,3 @@
-/**********************
-Seletor Universal 
-
-* {
-    border: 1px solid red;
-}
-
-h1 {
-    color: green;
-}
-
-.verde {
-    color: green;
-}
-
-p.verde {
-    color: green
-}*/
-
-/*
-Seletor de ID 
-#cabecalho {
-    border: 1px solid blue;
-}*/
-/*
-div a {
-    color: green;
-}*/
-/*
-h1+p{
-    color: red;
-}
-h1~p {
-    color: pink;
-}*/
-/* Aula de herança 
-* {
-    color: red;
-}
-
-h2 {
-    color: blue;
-}
-h2#amarelo {
-    color: yellow;
-}
-h2.verde {
-    color: green;
-}
-*/
 
 /* 
 Barra de navegação vertical
@@ -81,7 +31,7 @@ ul a {
     background: #f7b600 url(../imagens/menu.png)  no-repeat left bottom;
 }
 
-a:hover, .selecionado a {
+ul a:hover, .selecionado a {
     background-position: right bottom;
     background-color: #f99200;
     color: white;
@@ -89,7 +39,9 @@ a:hover, .selecionado a {
 
 #home #navegacao .home a,
 #sobre #navegacao .sobre a,
-#servicos #navegacao .servicos a 
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a
 {
     background-position: right bottom;
     background-color: #f99200;
