@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title>Layout Liquido</title>
     <style>
         body {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,9 +12,11 @@
         }
 
         #container {
-            width: 720px;
+            width: 85%;
             margin: 0 auto;
             background: #FFF;
+            min-width: 720px;
+            /*max-width:960px;*/
         }
 
         #marca {
@@ -25,17 +27,20 @@
         }
 
         #conteudo {
-            width: 520px;
+            border: 1px solid red;
+            width: 75%;/*520px -> 74.28*/
             float: right;
         }
 
         #conteudo-principal {
-            width: 320px;
+            border: 1px solid red;
+            width: 63%;/*320px -> 64%*/
             float: left;
         }
 
         #conteudo-secundario {
-            width: 180px;
+            border: 1px solid red;
+            width: 34%;/*180px -> 36%*/
             float: right;
             background: #d1d1d1;
         }
@@ -49,7 +54,8 @@
         }
 
         #navegacao {
-            width: 180px;
+            border: 1px solid red;
+            width: 23%; /*180px -> 25.71*/
             float: left;
             padding-top: 20px;
             padding-bottom: 20px;
