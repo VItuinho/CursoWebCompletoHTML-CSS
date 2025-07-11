@@ -186,6 +186,13 @@ h3 {
     background: #de003e;
 }
 
+/*Formatando lista de notícias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
 /*Rodape*/
 #container-rodape {
     background: #294c71; 
